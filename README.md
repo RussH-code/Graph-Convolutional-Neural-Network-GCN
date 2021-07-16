@@ -24,7 +24,7 @@ Adjacency matrix is a square matrix to describe the relationship of nodes in a g
 
 **H** is the input at the **l** hidden layer. For every layer, the input is multiplied with the adjacency matrix **A**, as well as the weights **W** that are learnt by the neural net. Sigma denotes the activation function. 
 
- | A | B | C | D
+Nodes | A | B | C | D
  _ | _ | _ | _ | _
 A |
 B |
