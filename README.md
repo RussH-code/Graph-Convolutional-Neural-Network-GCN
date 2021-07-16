@@ -26,7 +26,7 @@ Adjacency matrix is a square matrix to describe the relationship of nodes in a g
 
 Nodes | A | B | C | D
  _ | _ | _ | _ | _
-A |
-B |
-C |
-D |
+A | 0 | 0 | 1 | 1
+B | 0 | 0 | 1 | 1
+C | 1 | 1 | 0 | 0
+D | 1 | 1 | 0 | 0
