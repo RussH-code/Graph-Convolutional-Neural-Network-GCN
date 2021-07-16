@@ -8,11 +8,15 @@ Networks are everywhere. Some common examples include social media network, tran
 ## GCNs
 The key concepts in GCN can be described as label propagation. To fully capture a node in a graph, we have to not only include information (features) about the node itself, but also that of its neighbours. This means the feature vector of a node will have to be some function of its and its neighbours' features. This is where the name *convolution* comes from, as we aggregate information from neighbours, just like in CNNs. While CNNs use filters and convolutions, GCNs does this with the help of adjacency matrix.
 
-![]()
+![](https://github.com/RussH-code/Graph-Convolutional-Neural-Network-GCN/blob/main/gcn1.PNG)
+
+Source: <a href="https://arxiv.org/pdf/1901.00596.pdf">A Comprehensive Survey on Graph Neural Networks</a>
 
 ### Adjacency Matrix
 
 ![adj matrix](https://github.com/RussH-code/Graph-Convolutional-Neural-Network-GCN/blob/main/adjacency.gif)
+
+Source: <a href="https://mathworld.wolfram.com/AdjacencyMatrix.html">Adjacency Matrix - Wolfram Alpha</a>
 
 Adjacency matrix is a square matrix to describe the relationship of nodes in a graph. It denotes whether two nodes are connected/adjacent (1) or not (0). The core functionality of a GCN is implemented by the following equation:
 
