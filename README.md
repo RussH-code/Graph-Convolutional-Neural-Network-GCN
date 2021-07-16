@@ -31,13 +31,10 @@ B | 0 | 0 | 1 | 1
 C | 1 | 1 | 0 | 0
 D | 1 | 1 | 0 | 0
 
-<div align="right>
+
 Nodes | Values
 ----- | ------
 A | 1
 B | 2
 C | 3
 D | 4
-            
-            
-</div>
