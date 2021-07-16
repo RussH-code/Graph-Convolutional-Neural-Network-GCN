@@ -20,7 +20,7 @@ Source: <a href="https://mathworld.wolfram.com/AdjacencyMatrix.html">Adjacency M
 
 Adjacency matrix is a square matrix to describe the relationship of nodes in a graph. It denotes whether two nodes are connected/adjacent (1) or not (0). The core functionality of a GCN is implemented by the following equation:
 
-"${H}^{l+1} = \sigma({W}\hat{A}{H}^{l})$"
+<img src="https://render.githubusercontent.com/render/math?math={H}^{l+1} = \sigma({W}\hat{A}{H}^{l}">
 
 **H** is the input at the **l** hidden layer. For every layer, the input is multiplied with the adjacency matrix **A**, as well as the weights **W** that are learnt by the neural net. Sigma denotes the activation function. 
 
