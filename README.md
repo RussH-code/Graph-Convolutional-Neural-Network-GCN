@@ -20,3 +20,4 @@ Source: <a href="https://mathworld.wolfram.com/AdjacencyMatrix.html">Adjacency M
 
 Adjacency matrix is a square matrix to describe the relationship of nodes in a graph. It denotes whether two nodes are connected/adjacent (1) or not (0). The core functionality of a GCN is implemented by the following equation:
 
+${H}^{l+1} = \sigma({W}\hat{A}{H}^{l})$
