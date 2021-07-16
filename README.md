@@ -52,3 +52,5 @@ B | 7
 C | 3
 D | 3
 
+The values of features changed depending on their relationships with neighbours. The node information is said to have propagated to its neighbours. The actual implementation is more complicated, the original graph neural network recommended using normalized adjacency matrix, we will discuss and implement that in the jupyter notebook.
+
