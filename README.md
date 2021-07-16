@@ -54,3 +54,19 @@ D | 3
 
 The values of features changed depending on their relationships with neighbours. The node information is said to have propagated to its neighbours. The actual implementation is more complicated, the original graph neural network recommended using normalized adjacency matrix, we will discuss and implement that in the jupyter notebook.
 
+This is the key idea in GCNs, the rest is similar to a normal neural network.
+
+----
+# Jupyter notebook
+## 1. Graph neural network from scratch
+In this notebook we go through the concepts of graph neural network by implementing a graph neural network from scratch to show the inner workings.
+
+## 2. Stellargraph library
+We also demonstrate using pre-built convolutional network implemented in `Stellarpgraph` library. This library is built on the `Keras` library, so should be easy to pick up for `tensorflow` users.
+
+--- 
+## References
+1. <a href="https://youtu.be/8owQBFAHw7E">Intro to graph neural networks (ML Tech Talks)</a>
+2. <a href="https://stellargraph.readthedocs.io/en/stable/demos/node-classification/gcn-node-classification.html">Node classification with Graph Convolutional Network</a>
+3. <a href="https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780">A High-Level Introduction to Graph Convolutional Networks
+</a>
