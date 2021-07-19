@@ -10,13 +10,13 @@ The key concepts in GCN can be described as label propagation. To fully capture 
 
 ![](https://github.com/RussH-code/Graph-Convolutional-Neural-Network-GCN/blob/main/gcn1.PNG)
 
-Source: <a href="https://arxiv.org/pdf/1901.00596.pdf">A Comprehensive Survey on Graph Neural Networks</a>
+Photo: <a href="https://arxiv.org/pdf/1901.00596.pdf">A Comprehensive Survey on Graph Neural Networks</a>
 
 ### Adjacency Matrix
 
 ![adj matrix](https://github.com/RussH-code/Graph-Convolutional-Neural-Network-GCN/blob/main/adjacency.gif)
 
-Source: <a href="https://mathworld.wolfram.com/AdjacencyMatrix.html">Adjacency Matrix - Wolfram Alpha</a>
+Photo: <a href="https://mathworld.wolfram.com/AdjacencyMatrix.html">Adjacency Matrix - Wolfram Alpha</a>
 
 Adjacency matrix is a square matrix to describe the relationship of nodes in a graph. It denotes whether two nodes are connected/adjacent (1) or not (0). The core functionality of a GCN is implemented by the following equation:
 
